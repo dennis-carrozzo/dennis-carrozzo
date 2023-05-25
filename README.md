@@ -71,7 +71,7 @@ class FullStackWebDeveloper extends Human {
   `getStringFromArray` function. The resulting string is then returned. */
   getUsedTechnologies = () => {
     let intro = `
-This are the technologies i use:\n`
+These are the technologies i use:\n`
     for (const [key, value] of Object.entries(this.usedTechnologies)) {
       intro += `
  - ${key} ~> ${getStringFromArray(value)}.\n`
@@ -143,7 +143,7 @@ console.log(dennisIntro)
 // english and italian. My interests are
 // coding, cooking, cycling and swimming.
 
-// This are the technologies i use:
+// These are the technologies i use:
 
 //  - frontend ~> HTML, CSS, Javascript, React, TailwindCSS, @MUI/material, Pug and EJS.
 
