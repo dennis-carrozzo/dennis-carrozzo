@@ -45,7 +45,7 @@ element. The resulting string is then returned. */
     const spokenLanguagesString = getStringFromArray(this.spokenLanguages)
     const interestsString = getStringFromArray(this.interests)  
     return `
-Hi there,
+Hi there 👋,
 
 My name is ${this.name}, I'm from ${this.countryOfOrigin} and 
 I'm currently based in ${this.currentLocation}. I speak
